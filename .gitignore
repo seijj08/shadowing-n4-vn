@@ -1,0 +1,15 @@
+# Azure 音声キーなどの秘密情報を誤ってアップロードしないための設定
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+
+# 作業用
+tools/_*.js
+tools/_*.mp3
+
+# OS
+.DS_Store
+Thumbs.db
